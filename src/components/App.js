@@ -13,8 +13,8 @@ function App() {
 
    
       <Header blogName = { blogData.name } />
-      <About  blogImage = { blogData.image} blogAbout = {blogData.about}/>
-      <ArticleList blogContent = { blogData.posts} />
+      <About  blogImage = { blogData.image } blogAbout = {blogData.about}/>
+      <ArticleList blogContent = { blogData.posts } />
     </div>
   );
 }
